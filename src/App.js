@@ -10,11 +10,10 @@ function App() {
     <>
     <Routes>
       <Route exact path="/" element={ <Home data={travel_destinations}/> }/>
-     
+      </Routes>
+     <Routes>
       <Route exact page={"/city/:id"}  element={ <TourDetails data={travel_destinations}/>}/>
-
-    
-    </Routes>
+     </Routes>
     </>
   );
 }
