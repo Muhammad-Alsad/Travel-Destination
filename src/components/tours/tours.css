@@ -1,9 +1,30 @@
 
+  /*.grid-container {
+  /* display: grid;
+  column-gap: 10px;
+  grid-template-columns: auto auto auto;
+  background-color: #d5ebfd;
+  padding: 10px; 
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+  /* justify-items: stretch; 
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 10px;
+  text-align: center;
+  
+}
 
 .space{
-    padding-bottom:60px ;
-}
+    padding-bottom:150px ;}
 
-.cards{
-    border: 1px solid black;
-}
+    img{
+        width: 200px;
+       height: 200px;
+      }*/

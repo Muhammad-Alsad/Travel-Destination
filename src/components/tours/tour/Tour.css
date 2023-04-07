@@ -1,0 +1,32 @@
+
+
+.grid-container {
+    /* display: grid;
+    column-gap: 10px;
+    grid-template-columns: auto auto auto;
+    background-color: #d5ebfd;
+    padding: 10px; */
+    display: grid;
+    /* grid-rows: 1fr 1fr; */
+    row-gap: 10px;
+    column-gap: 10px;
+    /* justify-items: stretch; */
+    flex-wrap: wrap;
+   
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .space{
+      padding-bottom:70px ;
+    }
+  
+      img{
+          width: 200px;
+         height: 200px;
+        }

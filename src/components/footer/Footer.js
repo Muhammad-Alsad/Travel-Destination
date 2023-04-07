@@ -4,7 +4,7 @@ function Footer() {
     return (
         <footer class="footer">
             <ul>
-                <li><p>&copy; Copy Right </p></li>
+                <li><p className='text'>&copy; Copy Right </p></li>
             </ul>
         </footer>
     );

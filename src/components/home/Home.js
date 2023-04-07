@@ -1,14 +1,13 @@
 import './home.css';
-import Header from '../header/Header';
 import Tours from '../tours/Tours';
 import Footer from '../footer/Footer';
-
-function Home(prop){
-   // console.log(prop.data)
+import Navbar from '../Navbar/Navbar';
+function Home(props){
+    //console.log(prop.data)
     return(
         <div>
-            <Header/>
-            <Tours data={prop.data}/>
+            <Navbar/>
+            <Tours data={props.data}/>
             <Footer/>
         </div>
     );
