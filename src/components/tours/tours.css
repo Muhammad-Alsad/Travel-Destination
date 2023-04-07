@@ -1,16 +1,15 @@
 
-
-  .grid-container {
+  /*.grid-container {
   /* display: grid;
   column-gap: 10px;
   grid-template-columns: auto auto auto;
   background-color: #d5ebfd;
-  padding: 10px; */
+  padding: 10px; 
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   row-gap: 10px;
   column-gap: 10px;
-  /* justify-items: stretch; */
+  /* justify-items: stretch; 
 }
 
 .grid-item {
@@ -28,4 +27,4 @@
     img{
         width: 200px;
        height: 200px;
-      }
+      }*/

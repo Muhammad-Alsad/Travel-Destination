@@ -1,8 +1,9 @@
 
 import './tours.css'
 import Tour from '../tours/tour/Tour'
-function Tours(props) {
 
+
+function Tours(props) {
 
     return (
      <>

@@ -9,10 +9,8 @@ function App() {
   return (
     <>
     <Routes>
-      <Route exact path="/" element={ <Home data={travel_destinations}/> }/>
-      </Routes>
-     <Routes>
-      <Route exact page={"/city/:id"}  element={ <TourDetails data={travel_destinations}/>}/>
+      <Route path="/" element={ <Home data={travel_destinations}/> }/>
+      <Route path={"/city/:id"}  element={ <TourDetails data={travel_destinations}/>}/>
      </Routes>
     </>
   );
